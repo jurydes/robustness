@@ -1,0 +1,11 @@
+[project]
+name = "robustness"
+version = "0.2.0"
+requires-python = ">=3.10"
+dependencies = [
+  "aiohttp", "pandas", "openpyxl", "numpy",
+  "pydantic>=2", "pydantic-settings", "python-dotenv",
+]
+
+[tool.setuptools]
+packages = ["robustness"]
